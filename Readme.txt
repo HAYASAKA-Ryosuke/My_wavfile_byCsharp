@@ -1,11 +1,11 @@
-Waveƒtƒ@ƒCƒ‹‚ð¶‚Ì‰¹ºƒf[ƒ^‚©‚ç¶¬‚µ‚Ä‚­‚ê‚éƒNƒ‰ƒXƒtƒ@ƒCƒ‹‚Å‚·D
+ï»¿Waveãƒ•ã‚¡ã‚¤ãƒ«ã‚’ç”Ÿã®éŸ³å£°ãƒ‡ãƒ¼ã‚¿ã‹ã‚‰ç”Ÿæˆã—ã¦ãã‚Œã‚‹ã‚¯ãƒ©ã‚¹ãƒ•ã‚¡ã‚¤ãƒ«ã§ã™ï¼Ž
 
-ŠÈ’P‚ÈŽg‚¢•û—á
-byte[] data;//¶‚ÌM†ƒf[ƒ^
-byte[] wavefile;//wave‰»‚³‚ê‚½ƒf[ƒ^‚ðŠi”[‚·‚é”z—ñ
+ç°¡å˜ãªä½¿ã„æ–¹ä¾‹
+byte[] data;//ç”Ÿã®ä¿¡å·ãƒ‡ãƒ¼ã‚¿
+byte[] wavefile;//waveåŒ–ã•ã‚ŒãŸãƒ‡ãƒ¼ã‚¿ã‚’æ ¼ç´ã™ã‚‹é…åˆ—
 
-//ƒRƒ“ƒXƒgƒ‰ƒNƒ^ŒÄ‚Ño‚µŽž‚É¶ƒf[ƒ^‚ð“ü‚ê‚é“Á‚ÉŽw’è‚ª–³‚¯‚ê‚ÎƒXƒeƒŒƒICƒTƒ“ƒvƒŠƒ“ƒOƒŒ[ƒg:44.1kHz
+//ã‚³ãƒ³ã‚¹ãƒˆãƒ©ã‚¯ã‚¿å‘¼ã³å‡ºã—æ™‚ã«ç”Ÿãƒ‡ãƒ¼ã‚¿ã‚’å…¥ã‚Œã‚‹ç‰¹ã«æŒ‡å®šãŒç„¡ã‘ã‚Œã°ã‚¹ãƒ†ãƒ¬ã‚ªï¼Œã‚µãƒ³ãƒ—ãƒªãƒ³ã‚°ãƒ¬ãƒ¼ãƒˆ:44.1kHz
 WaveGenerator wg=new WaveGenerator(data);
-//Wave‰»‚³‚ê‚½ƒf[ƒ^‚ðŒÄ‚Ñ‚¾‚·
+//WaveåŒ–ã•ã‚ŒãŸãƒ‡ãƒ¼ã‚¿ã‚’å‘¼ã³ã ã™
 wavefile = wg.WavefileReturn();
 
